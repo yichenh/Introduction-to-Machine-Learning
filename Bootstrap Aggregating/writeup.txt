@@ -1,0 +1,33 @@
+a.
+
+As shown by the plots.
+
+b.
+
+Working on the one-vs-three problem...
+
+The cross-validation error of decision trees is 0.0072
+The OOB error of 200 bagged decision trees is 0.0009
+
+Now working on the three-vs-five problem...
+
+The cross-validation error of decision trees is 0.0651
+The OOB error of 200 bagged decision trees is 0.0057
+
+c.
+
+Working on the one-vs-three problem...
+
+The test error of a single decision tree is 0.0163
+The test error of aggregated decision trees is 0.0116
+
+Now working on the three-vs-five problem...
+
+The test error of a single decision tree is 0.1196
+The test error of aggregated decision trees is 0.0982
+
+d.
+
+As shown from the plots in a, as the number of bag increases the out of bag error decreases. Since the aggregated hypothesis has a lower variance, the more bags we have, the lower the out of bag error is.
+
+As we can see from the results in c, in both one-vs-three problem and three-vs-five problem, the aggregated tree model has a significantly lower out of bag error compared to a single tree model. Therefore, the bootstrap aggregating is working.
